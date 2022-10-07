@@ -2,13 +2,14 @@
     box-sizing: border-box;
 }
 
-body{
+/* body{
     background: #4D4637;
     height: 500px;
-}
+} */
 
-.container-slider{
+body .container-slider{
     width: 100%;
+    padding: 10px;
     margin: 0 auto;
     overflow: hidden; 
     box-shadow: 0px 0px 15px 5px rgba(255, 255, 190, .75),
