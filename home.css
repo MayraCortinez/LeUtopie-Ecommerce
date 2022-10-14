@@ -1,15 +1,94 @@
+/* Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap');
+
+
+
 * {
     box-sizing: border-box;
+    font-family: 'Playfair Display SC', serif;
+    list-style: none;
+    text-decoration: none;
 }
 
-/* body{
-    background: #4D4637;
-    height: 500px;
-} */
 
-body .container-slider{
+header {
     width: 100%;
-    padding: 10px;
+    height: 100%;
+    background-color: rgb(94, 95, 95);
+    z-index: 9;
+}
+
+nav {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo {
+    width: 140px;
+    left: 20px;
+    margin: auto;
+}
+
+.bar-btn {
+    font-size: 25px;
+    color:rgba(255, 255, 190, .75);
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.nav-menu {
+    position: fixed;
+    width: 100%;
+    height: 0vh;
+    top: 100px;
+    background: rgba(0,0,0,.95);
+    text-align: center;
+    transition: all .5s;
+}
+
+.nav-menu li {
+    display: none;
+    line-height: 30px;
+    margin: 50px 0;
+    transition: all .5s;
+}
+
+.nav-menu li a{
+    color:rgba(201, 201, 195, 0.75);
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.nav-menu li a.active, .nav-menu li a:hover{
+    color: rgba(255, 255, 190, .75);
+    transition: .3s;
+}
+
+#check{
+    display: none;
+}
+
+#check:checked ~ .nav-menu{
+    height: 100vh;
+}
+
+#check:checked ~ .nav-menu li{
+   display: block;
+}
+
+.carrousel-text{
+    z-index: 1;
+}
+
+
+.container-slider{
+    z-index: -1;
+    width: 100%;
     margin: 0 auto;
     overflow: hidden; 
     box-shadow: 0px 0px 15px 5px rgba(255, 255, 190, .75),
@@ -64,5 +143,40 @@ body .container-slider{
 }
 
 
-/* header */
+/* Responsive for desktop*/
 
+@media screen and (min-width: 768px){
+    .logo {
+        margin-left: 50px;
+    }
+
+    nav {
+        height: 100px;
+    }
+
+    .bar-btn{
+        display: none;
+    }
+
+    .nav-menu {
+        position: relative;
+        height: 100px;
+        top: 0; 
+        background: none;
+        transition: none;
+        text-align: right;
+        margin-right: 50px;
+    }
+
+    .nav-menu li {
+        display: inline-block;
+        line-height: 100px;
+        margin: 0 20px;
+        transition: none;
+    }
+
+    .nav-menu li a {
+        font-size: 12px;
+    }
+
+}
