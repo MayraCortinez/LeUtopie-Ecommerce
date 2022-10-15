@@ -19,6 +19,8 @@ header {
     height: 100vh;
     background-color: rgba(30, 31, 31, 0.9);
     z-index: 2;
+    background-size: cover;
+    overflow: hidden;
 }
 
 nav {
@@ -36,7 +38,7 @@ nav {
     z-index: 5;
     margin-top: 200px;
     margin-bottom: 100px;
-    width: 140px;
+    width: 100px;
     border-radius: 5px;
     box-shadow: 0px 0px 15px 5px rgba(255, 255, 190, .75),
     0px 0px 15px 5px rgba(109, 109, 108, 0.75);  
@@ -188,6 +190,7 @@ nav {
 
 @media screen and (min-width: 768px){
     .logo {
+        width: 140px;
         margin-left: 50px;
     }
 
