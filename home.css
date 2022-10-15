@@ -98,9 +98,8 @@ nav {
 
 .nav-menu li a{
     color:rgba(201, 201, 195, 0.75);
-    font-size: 16px;
+    font-size: 18px;
     text-transform: uppercase;
-    font-weight: 600;
 }
 
 .nav-menu li a.active, .nav-menu li a:hover{
