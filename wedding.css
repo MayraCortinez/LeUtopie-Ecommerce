@@ -244,13 +244,13 @@
 
 
 .wedding .background-color{
-    background: url('./images/wedding-salon2.jpg');
+    background: url('./images/wedding-5.jpg');
     width: 100%;
     height: 400px;
-    object-fit: cover;
     background-attachment: fixed;
+    background-repeat: no-repeat;
     filter: brightness(0.6);
-    margin: 30px auto;
+    margin: auto;
     position: absolute;
 }
 
@@ -275,7 +275,8 @@ ul, li {
     padding: 15px;
     height: 70px;
     position: relative;
-    animation: slide 5s cubic-bezier(0.68, -0.55, 0.27, 1.55) infinite; 
+    animation: slide 5s cubic-bezier(.55,.09,.68,.53) infinite; 
+    margin: auto;
 }
 
 .wedding .text-li {
