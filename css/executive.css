@@ -23,7 +23,7 @@
     padding-bottom: 40px;
 }
 
-.wedding nav {
+  nav {
     height: 100px;
     width: 100%;
     display: flex;
@@ -32,7 +32,7 @@
 }
 
 
-.wedding .logo {
+  .logo {
     margin-left: 20px;
     position: relative;
     z-index: 5;
@@ -44,7 +44,7 @@
     0px 0px 15px 5px rgba(109, 109, 108, 0.75);  
 }
 
-.wedding .bar-btn {
+  .bar-btn {
     position: relative;
     z-index: 1;
     font-size: 25px;
@@ -53,7 +53,7 @@
     cursor: pointer;
 }
 
-.wedding .nav-menu {
+  .nav-menu {
     position: fixed;
     z-index: 2;
     width: 100%;
@@ -88,7 +88,7 @@
     padding-top: 1px;
 }
 
-.wedding .nav-menu li {
+  .nav-menu li {
     display: none;
     line-height: 50px;
     margin: 50px 0;
@@ -96,7 +96,7 @@
 
 }
 
-.wedding .nav-menu li a{
+  .nav-menu li a{
     color:rgba(201, 201, 195, 0.75);
     font-size: 18px;
     text-transform: uppercase;
@@ -105,7 +105,7 @@
     filter: brightness(0.8);
 }
 
-.wedding .nav-menu li a.active, .nav-menu li a:hover{
+  .nav-menu li a.active, .nav-menu li a:hover{
     color: rgba(197, 197, 121, 0.75);
     transition: .5s;
     border-radius: 5px;
@@ -115,24 +115,24 @@
     filter: brightness(1.2);
 }
 
-.wedding #check{
+  #check{
     display: none;
 }
 
-.wedding #check:checked ~ .nav-menu{
+  #check:checked ~ .nav-menu{
     height: fit-content;
 }
 
-.wedding #check:checked ~ .nav-menu li{
+  #check:checked ~ .nav-menu li{
    display: block;
 }
 
-.wedding .carrousel-text{
+  .carrousel-text{
     z-index: 1;
 }
 
 
-.wedding .container-slider{
+  .container-slider{
     z-index: -1;
     width: 97%;
     margin: 0 auto;
@@ -142,18 +142,18 @@
     border-radius: 5px; 
 }
 
-.wedding .slider{
+  .slider{
     display: flex;
     width: 400%;
     height: 300px;
     margin-left: -100%;
 }
 
-.wedding .slider-section{
+  .slider-section{
     width: 100%;
 }
 
-.wedding .slider-img{
+  .slider-img{
     display: block;
     width: 100%;
     height: 100%;
@@ -161,7 +161,7 @@
     filter: brightness(1);
 }
 
-.wedding .slider-img img{
+  .slider-img img{
     display: block;
     width: 100%;
     height: 100%;
@@ -169,7 +169,7 @@
     filter: brightness(1);
 }
 
-.wedding .slider-btn{
+  .slider-btn{
     display: none;
     position: absolute;
     width: 40px;
@@ -186,25 +186,25 @@
     cursor: pointer;
 }
 
-.wedding .slider-btn:hover{
+  .slider-btn:hover{
     color: #FFF9E6;
 }
 
-.wedding .slider-btn-right{
+  .slider-btn-right{
     right: 15px;
 }
 
-.wedding .slider-btn-left{
+  .slider-btn-left{
     left: 15px;
 }
 
 
-.wedding main{
+  main{
     font-family: 'Roboto Slab', serif;
     font-size: 18px;
 }
 
-.wedding .description{
+  .description{
     display: flex;
     flex-direction: column;
     width: 80%;
@@ -213,7 +213,7 @@
     background-color: white;
 }
 
-.wedding .desc-text{
+  .desc-text{
     margin: 30px auto 0px;
     align-items: center;
     width: 100%;
@@ -221,19 +221,19 @@
     line-height: 1.3;
 }
 
-.wedding .desc-img{
+  .desc-img{
     width: 100%;
     height: 180px;
 }
 
-.wedding .desc-img img{
+  .desc-img img{
     width: 100%;
     height: 100%;
     border-radius: 5px;
     object-fit: cover;
 }
 
-.wedding .plano{
+  .plano{
     margin: 10px auto;
     width: 80%;
     height: 180px;
@@ -243,7 +243,7 @@
 }
 
 
-.wedding .background-color{
+  .background-color{
     background: url('/images/wedding-5.jpg');
     width: 100%;
     height: 400px;
@@ -254,7 +254,7 @@
     position: absolute;
 }
 
-.wedding .slide-text{
+  .slide-text{
     height: 100%;
     width: 100%;
     display: flex;
@@ -262,7 +262,7 @@
     align-items: center;
 }
 
-.wedding .frases{
+  .frases{
     overflow: hidden;
 }
 
@@ -270,7 +270,7 @@ ul, li {
     list-style: none;
 }
 
-.wedding .text-ul {
+  .text-ul {
     width: 100%;
     padding: 15px;
     height: 70px;
@@ -279,7 +279,7 @@ ul, li {
     margin: auto;
 }
 
-.wedding .text-li {
+  .text-li {
     width: 100%;
     position: relative;
     height: 70px;
@@ -321,20 +321,20 @@ li:last-child{
 /* Responsive for desktop*/
 
 @media screen and (min-width: 760px){
-    .wedding .logo {
+      .logo {
         width: 140px;
         margin-left: 50px;
     }
 
-    .wedding nav {
+      nav {
         height: 150px;
     }
 
-    .wedding .bar-btn{
+      .bar-btn{
         display: none;
     }
 
-    .wedding .nav-menu {
+      .nav-menu {
         position: relative;
         height: 100px;
         top: 0; 
@@ -344,49 +344,49 @@ li:last-child{
         margin-right: 50px;
     }
 
-    .wedding .nav-menu li {
+      .nav-menu li {
         display: inline-block;
         line-height: 100px;
         margin: 0 15px;
         transition: none;
     }
 
-    .wedding .nav-menu li a {
+      .nav-menu li a {
         font-size: 15px;
     }
 
-    .wedding .slider-btn{
+      .slider-btn{
         top: 75%;
     }
 
-    .wedding .slider-img{
+      .slider-img{
        bottom: 80px;
     }
 
-    .wedding .description{
+      .description{
         flex-direction: row;
         margin-bottom: 10px;
         margin-top: 20px;
     }
 
-    .wedding .desc-text{
+      .desc-text{
         width: 50%;
         padding-right: 30px;
         line-height: 1.4;
     }
 
-    .wedding .desc-img{
+      .desc-img{
         margin-top: 20px;
         width: 50%;
         height: 210px;
     }
 
-    .wedding .plano{
+      .plano{
         margin-top: 20px;
         height: 400px;
     }
 
-    .wedding .text-li {
+      .text-li {
         font-size: 36px;
     }
 

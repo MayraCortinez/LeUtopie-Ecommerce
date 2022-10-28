@@ -10,6 +10,7 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
+    background-color: rgba(30, 31, 31, 0.9);
 }
 
 
@@ -210,7 +211,7 @@
     width: 80%;
     margin: auto;
     gap: 30px;
-    background-color: white;
+    background-color: rgba(30, 31, 31, 0.9);
 }
 
 .wedding .desc-text{
@@ -243,15 +244,23 @@
 }
 
 
-.wedding .background-color{
-    background: url('/images/wedding-5.jpg');
+/* .wedding .background-color{
     width: 100%;
     height: 400px;
     background-attachment: fixed;
     background-repeat: no-repeat;
     filter: brightness(0.6);
     margin: auto;
-    position: absolute;
+} */
+.titular, .texto{
+    color: antiquewhite;
+}
+
+.titular{
+    font-size: x-large;
+}
+.texto{
+    font-size: large;
 }
 
 .wedding .slide-text{
@@ -389,5 +398,13 @@ li:last-child{
     .wedding .text-li {
         font-size: 36px;
     }
+footer {
+    text-align: center;
+    color: antiquewhite;
+    text-decoration: none;
+}
+footer>a:link{
+    color: indianred;
+}
 
 }
