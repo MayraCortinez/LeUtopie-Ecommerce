@@ -11,11 +11,7 @@
   text-decoration: none;
   background-color: rgba(30, 31, 31, 0.9);
 }
-/*h2.map{
-    color:rgba(201, 201, 195, 0.75);
-    text-align: center;
 
-}*/
 #map{
     display: inline-block;
     color: #b3aa99;
@@ -26,7 +22,6 @@
 header {
   width: 100%;
   height: 100vh;
-  background-color: rgba(30, 31, 31, 0.9);
   z-index: 2;
   background-size: cover;
   overflow: hidden;
@@ -115,6 +110,9 @@ nav {
 .carrousel-text {
   z-index: 1;
 }
+.container-logo{
+  background: none;
+}
 
 .container-slider {
   z-index: -1;
@@ -178,6 +176,7 @@ nav {
   .logo {
     width: 140px;
     margin-left: 50px;
+    background: none;
   }
 
   nav {
@@ -203,10 +202,12 @@ nav {
     line-height: 100px;
     margin: 0 15px;
     transition: none;
+    background: none;
   }
 
   .nav-menu li a {
     font-size: 15px;
+    background: none;
   }
 
   .slider-btn {
