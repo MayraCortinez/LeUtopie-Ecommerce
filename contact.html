@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>LU Contact Form</title>
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/contact.css">
+    <script src="./js/contact.js"></script>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+
+</head>
+
+<body class="contact">
+    <header>
+        <nav>
+            <div class="container-logo">
+                <img class="logo" src="/images/logo.png" alt="Logo LE UTOPIE">
+            </div>
+            <input type="checkbox" id="check">
+            <label for="check" class="bar-btn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <ul class="nav-menu">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/wedding.html">Wedding</a></li>
+                <li><a href="/executive.html">Executive</a></li>
+                <li><a href="/kidslounge.html">Kids</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <form id="contact-form">
+            <section class="position-relative py-4 py-xl-5">
+                <div class="container position-relative">
+                    <div class="row d-flex justify-content-center bg-transparent">
+                        <div class="col-md-8 col-lg-6 col-xl-5 col-xxl-4">
+                            <div class="card mb-5">
+                                <div class="card-body p-sm-5">
+                                    <h2 class="text-center mb-4 text-light bg-transparent">Contactenos</h2>
+                                    <form method="post">
+                                        <input type="hidden" name="contact_number">
+                                        <div class="mb-3"><input class="form-control" type="text" id="name-2"
+                                                name="from_name" placeholder="Nombre"></div>
+                                        <div class="mb-3"><input class="form-control" type="email" id="email-2"
+                                                name="user_email" placeholder="Email"></div>
+                                        <div class="mb-3"><textarea class="form-control" id="message-2" name="message"
+                                                rows="6" placeholder="Mensaje"></textarea></div>
+                                        <div><button class="btn btn-primary d-block w-100" type="submit"
+                                                onclick="ValidarEmail()">Enviar </button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </form>
+        <section id="map">
+            <h2 class="map"> Adonde nos encontramos</h2>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3038.3665581142614!2d55.15333801503107!3d25.093494517476618!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6bd5a98cd951%3A0xfff197be002078b4!2sKps!5e0!3m2!1sen!2sar!4v1666384042282!5m2!1sen!2sar"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </div>
+    <footer>
+        <p>Diseño y desarrollo <a href="#">MJDEVS</a> para CODO A CODO 4.0</p>
+    </footer>
+</body>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+</html>
