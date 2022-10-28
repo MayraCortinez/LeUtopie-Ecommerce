@@ -11,14 +11,14 @@
   text-decoration: none;
   background-color: rgba(30, 31, 31, 0.9);
 }
-body{
+body {
   background: transparent;
 }
-#map{
-    display: flex;
-    color: #b3aa99;
-    flex-direction: column;
-    align-items: center;
+#map {
+  display: flex;
+  color: #b3aa99;
+  flex-direction: column;
+  align-items: center;
 }
 
 header {
@@ -64,7 +64,7 @@ nav {
   width: 100%;
   height: 0vh;
   top: 100px;
-  
+
   text-align: center;
   transition: all 0.5s;
   padding-top: 1px;
@@ -112,7 +112,7 @@ nav {
 .carrousel-text {
   z-index: 1;
 }
-.container-logo{
+.container-logo {
   background: none;
 }
 
@@ -215,12 +215,13 @@ nav {
   .slider-btn {
     top: 75%;
   }
+  
   footer {
     text-align: center;
     color: antiquewhite;
     text-decoration: none;
-}
-footer>a:link{
+  }
+  footer > a:link {
     color: indianred;
-}
+  }
 }
